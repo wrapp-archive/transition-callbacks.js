@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="example.css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../build/javascripts/transition-callbacks.js"></script>
+    <script type="text/javascript" src="example.js"></script>
+  </head>
+
+  <body>
+    <section id="messages">
+    </section>
+    <section id="examples">
+      <div id="block"></div>
+      <ul>
+        <li data-example="basicExample">
+          <h3>Example: basic</h3>
+          <p>
+            Demonstrates the most basic usage.
+          </p>
+          <button>Run</button>
+        </li>
+
+         <li data-example="cancellingExample">
+          <h3>Example: cancelling</h3>
+          <p>
+            Demonstrates that you can cancel a callback which will cause it not
+            to run.
+          </p>
+          <p>
+            When the block stops spinning nothing should be shown in the log.
+          </p>
+          <button>Run</button>
+        </li>
+
+        <li data-example="copiedObjectExample">
+          <h3>Example: copied object</h3>
+          <p>
+            Demonstrates that you can create new TransitionCallback objects and
+            that copied objects gets a new list of callbacks.
+          </p>
+          <p>
+            'Transition finished' should only be printed once.
+          </p>
+          <button>Run</button>
+        </li>
+
+        <li data-example="timeoutExample">
+          <h3>Example: timeout</h3>
+          <p>
+            Demonstrates a callback that will be called if the object hasn't
+            finished animating in 100ms.
+          </p>
+          <p>
+            When the callback has timed out the transition is started for real.
+            Nothing should be printed when the transition is done.
+          </p>
+          <button>Run</button>
+        </li>
+
+        <li data-example="duplicatesExample">
+          <h3>Example: duplicates</h3>
+          <p>
+            This will show that creating another callback with the same
+            ID will cancel the first one.
+          </p>
+          <button>Run</button>
+        </li>
+
+        <li data-example="jQueryExample">
+          <h3>Example: jQuery</h3>
+          <p>
+            This will show how to use this library with jQuery.
+          </p>
+          <button>Run</button>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
