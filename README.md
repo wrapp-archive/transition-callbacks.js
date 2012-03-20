@@ -152,5 +152,8 @@ This project is licensed under the [MIT License](http://en.wikipedia.org/wiki/MI
 
 Changelist
 ==========
+### 1.0.1
+* Fix a broken example.
+
 ### 1.0
 * Initial release.
