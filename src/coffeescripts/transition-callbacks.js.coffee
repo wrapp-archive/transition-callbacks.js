@@ -9,7 +9,7 @@ shallowCopy = (object) ->
   return o
 
 class window.TransitionCallbacks
-  @VERSION: '1.0'
+  @VERSION: '1.0.1'
   @timeout: 3000
   @clearAll: false
 
