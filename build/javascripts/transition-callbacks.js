@@ -23,7 +23,7 @@
   window.TransitionCallbacks = (function() {
     var _this = this;
 
-    TransitionCallbacks.VERSION = '1.0';
+    TransitionCallbacks.VERSION = '1.0.1';
 
     TransitionCallbacks.timeout = 3000;
 
