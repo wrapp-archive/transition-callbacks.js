@@ -53,7 +53,7 @@ function copiedObjectExample() {
 
   // Cancel the callback with the global object
   console.log("Cancel the callback with the global object");
-  TransitionCallbacks.cancelCallback(callback);
+  TransitionCallbacks.cancelCallback(element);
 }
 
 
