@@ -133,7 +133,7 @@ The constructor takes the following options:
 
 Examples
 --------
-See the examples directory.
+See the examples directory or the [examples site](http://wrapp.github.com/transition-callbacks.js/).
 
 jQuery functions
 ----------------
